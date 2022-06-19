@@ -50,7 +50,7 @@ def display_image(filename):
 
 image = Image.open(file)
 
-pimage= Image.resize((512, 512))
+pimage= Image.resize((520, 520))
 
 imarray=np.array(pimage)
 
